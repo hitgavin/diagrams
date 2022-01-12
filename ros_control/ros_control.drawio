@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T04:27:47.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7VxqpLn3u4qlh3qI_qOE" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T04:29:53.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Y3kPF7NkknV7n1Oafexz" version="16.1.0" type="github">
   <diagram id="8WjdRJNzvcCob919X_vl" name="Page-1">
     <mxGraphModel dx="1688" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="quUrAPskGc8MLW7vgIRe-10" value="+ getClaims(): set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-1">
           <mxGeometry y="112" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="quUrAPskGc8MLW7vgIRe-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-11" target="quUrAPskGc8MLW7vgIRe-10">
+        <mxCell id="quUrAPskGc8MLW7vgIRe-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-11" target="quUrAPskGc8MLW7vgIRe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-11" target="quUrAPskGc8MLW7vgIRe-19">
@@ -77,7 +77,7 @@
           <mxGeometry x="420" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-31" value="JointStateHandle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="580" width="160" height="294" as="geometry" />
+          <mxGeometry x="15" y="585" width="160" height="294" as="geometry" />
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-32" value="- name_: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-31">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -112,8 +112,11 @@
         <mxCell id="quUrAPskGc8MLW7vgIRe-42" value="+ getEffort(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-31">
           <mxGeometry y="268" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-43" target="quUrAPskGc8MLW7vgIRe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-43" value="JointHandle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="580" width="180" height="112" as="geometry" />
+          <mxGeometry x="240" y="676" width="180" height="112" as="geometry" />
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-44" value="- cmd_: double*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-43">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -127,7 +130,7 @@
         <mxCell id="quUrAPskGc8MLW7vgIRe-47" value="+ getCommand() const: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-43">
           <mxGeometry y="86" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="quUrAPskGc8MLW7vgIRe-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-48">
+        <mxCell id="quUrAPskGc8MLW7vgIRe-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-48" target="quUrAPskGc8MLW7vgIRe-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="430" as="targetPoint" />
           </mxGeometry>
@@ -137,10 +140,10 @@
             <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="quUrAPskGc8MLW7vgIRe-48" value="«interface»&lt;br&gt;&lt;b&gt;JointCommandInterface&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="quUrAPskGc8MLW7vgIRe-48" value="«interface»&lt;br&gt;&lt;b&gt;JointCommandInterface&lt;/b&gt;" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="390" y="480" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="quUrAPskGc8MLW7vgIRe-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=1.066;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-52" target="quUrAPskGc8MLW7vgIRe-14">
+        <mxCell id="quUrAPskGc8MLW7vgIRe-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="quUrAPskGc8MLW7vgIRe-52" target="quUrAPskGc8MLW7vgIRe-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-59" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;(JointStateHandle, DontClaimResources)&lt;/span&gt;" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="quUrAPskGc8MLW7vgIRe-58">
@@ -148,7 +151,7 @@
             <mxPoint x="-1" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="quUrAPskGc8MLW7vgIRe-52" value="«interface»&lt;br&gt;&lt;b&gt;JointStateInterface&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="quUrAPskGc8MLW7vgIRe-52" value="«interface»&lt;br&gt;&lt;b&gt;JointStateInterface&lt;/b&gt;" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="480" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
