@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T02:19:19.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="zji2vceZmyn_hDfxAdjC" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T02:31:43.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8lgdMRLKP1a_O611V1Td" version="16.1.0" type="github">
   <diagram id="8WjdRJNzvcCob919X_vl" name="Page-1">
-    <mxGraphModel dx="1034" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,52 @@
         </mxCell>
         <mxCell id="quUrAPskGc8MLW7vgIRe-10" value="+ getClaims(): set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-1">
           <mxGeometry y="112" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-11" value="HardwareResourceManager" style="swimlane;fontStyle=1;align=center;verticalAlign=bottom;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="280" height="152" as="geometry">
+            <mxRectangle x="200" y="240" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-12" value="- claims_: set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-11">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-11">
+          <mxGeometry y="66" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-14" value="+ virtual claim(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-11">
+          <mxGeometry y="74" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-15" value="+ clearClaims(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-11">
+          <mxGeometry y="100" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-16" value="+ getClaims(): set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-11">
+          <mxGeometry y="126" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-18" value="ResourceHandle&lt;br&gt;ClaimPolicy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-19" value="ResourceManager" style="swimlane;fontStyle=1;align=center;verticalAlign=bottom;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="55" width="280" height="152" as="geometry">
+            <mxRectangle x="200" y="240" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-20" value="- claims_: set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-19">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-19">
+          <mxGeometry y="66" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-22" value="+ virtual claim(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-19">
+          <mxGeometry y="74" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-23" value="+ clearClaims(string): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-19">
+          <mxGeometry y="100" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-24" value="+ getClaims(): set&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="quUrAPskGc8MLW7vgIRe-19">
+          <mxGeometry y="126" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quUrAPskGc8MLW7vgIRe-25" value="ResourceHandle" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="581" y="40" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
