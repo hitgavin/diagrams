@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T02:00:55.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="q8wsTghnWIu5SuRr7W8K" version="16.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-18T02:01:46.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5hJiaX11sZH-X4aDUCl5" version="16.2.7" type="github" pages="2">
   <diagram id="8WjdRJNzvcCob919X_vl" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,11 +368,14 @@
         <mxCell id="k5hXHLxlN19XzUAEthvr-0" value="«interface»&lt;br&gt;&lt;font color=&quot;#010103&quot;&gt;JointStateController&lt;/font&gt;" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mQnT46z9yBcWtM73tBsZ-1">
           <mxGeometry x="390" y="684" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="9eORLxEJOXRDawsOidtS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="mQnT46z9yBcWtM73tBsZ-1" source="k5hXHLxlN19XzUAEthvr-1" target="GkWKtUeVDlPXVvoZ7j08-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k5hXHLxlN19XzUAEthvr-1" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;JointTrajectoryController&lt;/span&gt;" style="html=1;verticalAlign=bottom;" vertex="1" parent="mQnT46z9yBcWtM73tBsZ-1">
-          <mxGeometry x="530" y="684" width="160" height="50" as="geometry" />
+          <mxGeometry x="523.5" y="684" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k5hXHLxlN19XzUAEthvr-2" value="SegmentImpl&lt;br&gt;HardwareInterface" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="mQnT46z9yBcWtM73tBsZ-1">
-          <mxGeometry x="636" y="670" width="109" height="30" as="geometry" />
+          <mxGeometry x="629" y="670" width="109" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9eORLxEJOXRDawsOidtS-0" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;JointTrajectoryController&lt;/span&gt;" style="html=1;verticalAlign=bottom;" vertex="1" parent="mQnT46z9yBcWtM73tBsZ-1">
           <mxGeometry x="457.25" y="804" width="150" height="50" as="geometry" />
